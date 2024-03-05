@@ -12,20 +12,23 @@ body{
 
 }
 
-/* Footer */
+/* Header */
 
-footer{
+header{
     background-color: white;
-
 }
 
-#logo-title{
-    font-size: 4em;
+img{
     display: inline-block;
-    font-weight: bold;
-    margin-left: 2%;
+    vertical-align: middle;
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
+/* Main */
 .container{
     background-color: white;
     padding: 2%;
@@ -33,11 +36,13 @@ footer{
     margin: 5% 13%;
 
 }
+/* Buttons */
 
 .button{
     border-radius: 5px;
     cursor: pointer;
     padding: 7px 16px;
+    border-collapse: collapse;
 }
 
 .button:first-child{
@@ -51,5 +56,71 @@ footer{
     color: lightgrey;
     border-color: lightgrey;
 }
+
+/* Tasks */
+h2{
+    margin-top: 5%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-weight: bold;
+    padding: 1em;
+
+}
+
+.check{
+    border: 2px solid lightgreen;
+    border-radius: 80%;
+    padding: 1px;
+    color: lightgreen;
+}
+
+.cross{
+    border: 2px solid red;
+    border-radius: 80%;
+    padding: 1px;
+    color: red;
+}
+
+.tag{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px;
+}
+
+#edit{
+    background-color: rgb(71, 173, 241);
+    color: white;
+}
+
+#goal{
+    background-color: rgb(156, 114, 228);
+    color: white;
+}
+
+#recruit{
+    background-color: rgb(100, 192, 169);
+    color: white;
+}
+#mobile{
+    background-color: orange;
+    color: white;
+}
+#website{
+    background-color: rgb(216, 99, 161);
+    color: white;
+}
+
+#sales{
+    background-color: olive;
+    color: white;
+}
+
+
 
 
