@@ -16,23 +16,25 @@ body{
 
 header{
     background-color: white;
+    mar
 }
 
 img{
     display: inline-block;
     vertical-align: middle;
+    height: 3em;
 }
 h1{
     display: inline-block;
     vertical-align: middle;
-    
+    font-size: 2em;
 }
 
 /* Main */
 .container{
     background-color: white;
     padding: 2%;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     margin: 5% 13%;
 
 }
@@ -69,21 +71,22 @@ ul{
 li{
     font-weight: bold;
     padding: 1em;
-
 }
 
 .check{
     border: 2px solid lightgreen;
-    border-radius: 80%;
+    border-radius: 50%;
     padding: 1px;
     color: lightgreen;
+    vertical-align: middle;
 }
 
 .cross{
     border: 2px solid red;
-    border-radius: 80%;
-    padding: 1px;
+    border-radius: 50%;
+    padding: 0px 2px;
     color: red;
+    vertical-align: middle;
 }
 
 .tag{
@@ -96,29 +99,35 @@ li{
 #edit{
     background-color: rgb(71, 173, 241);
     color: white;
+    border-color: rgb(71, 173, 241);
 }
 
 #goal{
     background-color: rgb(156, 114, 228);
     color: white;
+    border-color: rgb(156, 114, 228);
 }
 
 #recruit{
     background-color: rgb(100, 192, 169);
     color: white;
+    border-color: rgb(100, 192, 169);
 }
 #mobile{
     background-color: orange;
     color: white;
+    border-color: orange;
 }
 #website{
     background-color: rgb(216, 99, 161);
     color: white;
+    border-color: rgb(216, 99, 161);
 }
 
 #sales{
     background-color: olive;
     color: white;
+    border-color: olive;
 }
 
 
